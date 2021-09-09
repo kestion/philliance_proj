@@ -1,0 +1,39 @@
+body{
+    border:1px solid#583b75;
+    margin:auto;
+    width:500px;
+    /* PHONE
+    width:500px;*/
+    /* TABLET
+    width:800px;*/
+    /* STANDARD
+    width:1024px;*/
+    /* LARGE
+    width:1250px;*/
+    
+}
+header{
+    background: #583b75 url('img/wg01.jpg') no-repeat ;
+    background-size: cover;
+    padding: 0 1%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+main{
+    /*background: #583b75;*/
+    min-height: 700px;
+    padding:0.5% 3%;
+}
+footer{
+    background: #583b75 url('img/wg01.jpg') no-repeat ;
+    background-size: cover;
+    padding: 5% 1%;
+    text-align: center;
+}
+footer img{
+    max-height:50px;
+    margin-top: 5%;
+}
