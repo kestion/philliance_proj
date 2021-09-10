@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Playball&display=swap');
+body{
+    background: url("https://wallpaperaccess.com/full/1332261.jpg"); 
+    background-repeat:no-repeat;
+}
+main{
+    width:40%;
+    margin:auto;
+    text-align: center;
+    font-family: 'Playball', cursive;
+    font-size: 25px;
+    letter-spacing: 0.7px;
+    padding-bottom: 3%;
+}
+h1{
+    position:absolute;
+    left:10%;
+    top:0;
+    font-family: 'Marck Script', cursive;
+    font-size:130px;
+}
+img{
+    display: block;
+    max-width:100%;
+    height: auto;
+}
+figcaption{
+    font-family: 'Marck Script', cursive;
+    font-size:50px;
+    background: #fff;
+    border:5px solid rgb(49, 4, 4);
+    margin-top:40px;
+}
+p{background: #fff;}
+#tribute-link-wrapper{background:rgb(49, 4, 4);}
+
+a{    
+    text-decoration: none;
+    color: #fff;
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    main{font-size:15px;}
+    h1{
+        position:relative;
+        font-size:50px;
+    }
+    p{border:2px solid rgb(49, 4, 4);}
+    figcaption, a{font-size:20px;}
+  }
